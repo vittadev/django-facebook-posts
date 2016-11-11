@@ -16,9 +16,9 @@ setup(
     install_requires=[
         # 'django-facebook-api>=0.6.2',
         # 'django-facebook-applications>=0.1.0',
-        'django-facebook-users>=0.3.0',
-        'django-facebook-pages>=0.3.0',
-        'django-m2m-history>=0.1.2',
+        # 'django-facebook-users>=0.3.0',
+        # 'django-facebook-pages>=0.3.0',
+        # 'django-m2m-history>=0.1.2',
     ],
     dependency_links=[
         'https://github.com/vittadev/django-facebook-api#egg=django-facebook-api',
