@@ -22,7 +22,7 @@ setup(
     ],
     dependency_links=[
         'https://github.com/vittadev/django-facebook-api#egg=django-facebook-api',
-        'https://github.com/vittadev/django-facebook-applications#egg=django-facebook-applications',
+        # 'https://github.com/vittadev/django-facebook-applications#egg=django-facebook-applications',
                       ],
     classifiers=[
         'Development Status :: 4 - Beta',
