@@ -20,6 +20,7 @@ setup(
         'django-facebook-pages>=0.3.0',
         'django-m2m-history>=0.1.2',
     ],
+    dependency_links=['https://github.com/vittadev/django-facebook-api#egg=django-facebook-api-0.6.2'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
