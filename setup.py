@@ -15,15 +15,14 @@ setup(
     zip_safe=False,  # because we're including media that Django needs
     install_requires=[
         'django-facebook-api==0.6.2',
-        # 'django-facebook-api>=0.6.2',
-        # 'django-facebook-applications>=0.1.0',
-        # 'django-facebook-users>=0.3.0',
-        # 'django-facebook-pages>=0.3.0',
-        # 'django-m2m-history>=0.1.2',
+        'django-facebook-applications=0.1.0',
+        'django-facebook-users>=0.3.0',
+        'django-facebook-pages>=0.3.0',
+        'django-m2m-history>=0.1.2',
     ],
     dependency_links=[
         'https://github.com/vittadev/django-facebook-api.git@0.6.2#egg=django-facebook-api',
-        # 'https://github.com/vittadev/django-facebook-applications#egg=django-facebook-applications',
+        'https://github.com/vittadev/django-facebook-applications.git@0.1.0#egg=django-facebook-applications',
                       ],
     classifiers=[
         'Development Status :: 4 - Beta',
